@@ -7,10 +7,14 @@ You can create slides from a basic Markdown file. Reveal.js uses the number of l
 
 Take a look at the [raw source for the slides](https://raw.githubusercontent.com/MaptimeCalgary/presentation-example/gh-pages/slides.md) and the [final product](https://maptimecalgary.github.io/presentation-example). The repo can be found [here](https://github.com/MaptimeCalgary/presentation-example).
 
+_Try moving `right`._
+
 
 
 ## This is a new slide
 Because there were three line-breaks above this slide, it is created as a normal 'horizontal-slide'.
+
+_From here, you can move `left`, `right`, or `down`. Try `down`._
 
 
 ## This is a vertical-slide
