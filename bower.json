@@ -1,0 +1,25 @@
+{
+  "name": "example-presentation",
+  "version": "0.1",
+  "homepage": "https://github.com/MaptimeCalgary/example-presentation",
+  "authors": [
+    "MaptimeCalgary <calgary@maptime.io>"
+  ],
+  "description": "An example of a MaptimeCalgary presentation",
+  "main": "index.html",
+  "keywords": [
+    "maptime"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.0.0"
+  }
+}
