@@ -17,7 +17,7 @@ Take a look at the [raw source for the slides](https://raw.githubusercontent.com
 
 
 ## This is a new slide
-Create these by placing three line-breaks in the markdown source.
+Create these by placing 3 line-breaks in the markdown source.
 
 _From here, you can move `LEFT`, `RIGHT`, or `DOWN`._ <!-- .element: class="fragment" data-fragment-index="0" -->
 
@@ -25,7 +25,7 @@ _Try `DOWN`._ <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 ## This is a vertical-slide
-You make these by placing two line-breaks within the source.
+You make these by placing 2 line-breaks within the source.
 
 Vertical-slides are good for drilling in to topics. Think of it as a _details_ slide. If you're short on time, you can skip past these slides by moving `RIGHT`.
 
