@@ -3,36 +3,73 @@
 ### The presentation template
 This is the first slide.
 
-You can create slides from a basic Markdown file. Reveal.js uses the number of line-breaks to determine whether you're creating a normal-slide or a vertical slide.
+_Press `F` to go full-screen._<!-- .element: class="fragment" data-fragment-index="1" -->
 
-Take a look at the [raw source for the slides](https://raw.githubusercontent.com/MaptimeCalgary/presentation-example/gh-pages/slides.md) and the [final product](https://maptimecalgary.github.io/presentation-example). The repo can be found [here](https://github.com/MaptimeCalgary/presentation-example).
+_Try moving `RIGHT`._<!-- .element: class="fragment" data-fragment-index="2" -->
 
-_Try moving `right`._
+
+
+## Follow along
+These slides are created with Reveal.js + Markdown.
+
+Take a look at the [raw source for the slides](https://raw.githubusercontent.com/MaptimeCalgary/presentation-example/gh-pages/slides.md) and the [final product](https://maptimecalgary.github.io/presentation-example).
+
+The repo can be found [here](https://github.com/MaptimeCalgary/presentation-example).
 
 
 
 ## This is a new slide
-Because there were three line-breaks above this slide, it is created as a normal 'horizontal-slide'.
+Create these by placing three line-breaks in the markdown source.
 
-_From here, you can move `left`, `right`, or `down`. Try `down`._
+_From here, you can move `LEFT`, `RIGHT`, or `DOWN`._ <!-- .element: class="fragment" data-fragment-index="0" -->
+
+_Try `DOWN`._ <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 ## This is a vertical-slide
-Because there were only two line-breaks above this slide, it is created as a 'vertical-slide'. Think of it as a sub-slide.
+You make these by placing two line-breaks within the source.
 
-You can reach this slide by pressing `down` from the previous slide.
+Vertical-slides are good for drilling in to topics. Think of it as a _details_ slide. If you're short on time, you can skip past these slides by moving `RIGHT`.
 
-Vertical-slides are good for drilling in to topics. Think of it as a details slide that, if your short on time, you can skip over by moving `right`.
+
+
+<!-- .slide: data-background="MintCream" -->
+## Style
+
+You can style each slide individually.
+
+_Cool background, right?_<!-- .element: class="fragment" data-fragment-index="1" -->
+```
+<!-- .slide: data-background="MintCream" -->
+## Style
+
+You can style each slide individually.
+```
+
 
 
 
 ## Hey, it even supports code!
 
-``` python
-from datetime import datetime
-
-print(datetime.now())
 ```
+var marker = L.marker([49, 5.49]).addTo(map);
+var polygon = L.polygon([
+  [51.509, -0.08],
+  [51.503, -0.06],
+  [51.51, -0.047]
+]).addTo(map);
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+polygon.bindPopup("I am a polygon.");
+```
+
+
+
+## Want to see something really crazy?
+
+Press `S` to check out the 'Presentation Mode'.
+
+Note:
+The idea is that you put the other window on a shared screen, like a projector, and view this screen on your laptop. Btw, this note is only visible to the presenter.
 
 
 
