@@ -12,7 +12,7 @@ _Try moving `RIGHT`._<!-- .element: class="fragment" data-fragment-index="2" -->
 ## Follow along
 These slides are created with Reveal.js + Markdown.
 
-Take a look at the [raw source for the slides](https://raw.githubusercontent.com/MaptimeCalgary/presentation-example/gh-pages/slides.md). The repo can be found [here](https://github.com/MaptimeCalgary/presentation-example).
+Take a look at the [raw source for the slides](https://raw.githubusercontent.com/MaptimeCalgary/presentation_example/gh-pages/slides.md). The repo can be found [here](https://github.com/MaptimeCalgary/presentation_example).
 
 
 
