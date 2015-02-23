@@ -1,0 +1,39 @@
+@mixin vertical-gradient( $top, $bottom ) {
+	background: $top;
+	background: -moz-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom) );
+	background: -webkit-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -o-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -ms-linear-gradient( top, $top 0%, $bottom 100% );
+	background: linear-gradient( top, $top 0%, $bottom 100% );
+}
+
+@mixin horizontal-gradient( $top, $bottom ) {
+	background: $top;
+	background: -moz-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -webkit-gradient( linear, left top, right top, color-stop(0%,$top), color-stop(100%,$bottom) );
+	background: -webkit-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -o-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -ms-linear-gradient( left, $top 0%, $bottom 100% );
+	background: linear-gradient( left, $top 0%, $bottom 100% );
+}
+
+@mixin radial-gradient( $outer, $inner, $type: circle ) {
+	background: $outer;
+	background: -moz-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -webkit-gradient( radial, center center, 0px, center center, 100%, color-stop(0%,$inner), color-stop(100%,$outer) );
+	background: -webkit-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -o-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -ms-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+}
+
+@mixin radial-gradient-image( $outer, $url, $type: circle ) {
+	background: url($url);
+	background: -moz-radial-gradient( center, $type cover,  rgba(0,0,0,0) 0%, $outer 100% ), url($url) repeat;
+	background: -webkit-gradient( radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,$outer) ), url($url) repeat;
+	background: -webkit-radial-gradient( center, $type cover,  rgba(0,0,0,0) 0%, $outer 100% ), url($url) repeat;
+	background: -o-radial-gradient( center, $type cover,  rgba(0,0,0,0) 0%, $outer 100% ), url($url) repeat;
+	background: -ms-radial-gradient( center, $type cover,  rgba(0,0,0,0) 0%, $outer 100% ), url($url) repeat;
+	background: radial-gradient( center, $type cover,  rgba(0,0,0,0) 0%, $outer 100% ), url($url) repeat;
+}
