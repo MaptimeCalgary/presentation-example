@@ -1,46 +1,73 @@
 /**
- * Sky theme for reveal.js.
+ * MaptimeCalgary Theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * To customize the MaptimeCalgary template, edit this file. From the repo base
+ * directory, run the following to convert the following into CSS:
+ *
+ *   sass theme/source/maptimecalgary.scss:theme/maptimecalgary.css
+ *
+ * When making changes to the style, it can be helpful to keep sass running to
+ * watch your file for changes and automatically regenerate the CSS like so:
+ *
+ *   sass theme/source/maptimecalgary.scss:theme/maptimecalgary.css --watch
+ *
+ * This theme is MIT Licensed.
  */
 
 
 // Default mixins and settings -----------------
 @import "../template/mixins";
-@import "../../bower_components/reveal.js/css/theme/template/settings";
+@import "../../bower_components/reveal.js/css/theme/template/settings";  // Take a look at this file for an example of settings that can be overridden
 // ---------------------------------------------
 
 
-
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Patrick+Hand:400italic,700italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
-// Override theme settings (see ../template/settings.scss)
-$mainFont: 'Open Sans', sans-serif;
+// Main Font
+$mainFont: 'Open Sans Condensed', sans-serif;
 $mainColor: #333;
-$headingFont: 'Patrick Hand', cursive;
+
+// Header
+$headingFont: 'Amatic SC', 'Open Sans Condensed', sans-serif;
 $headingColor: #333;
-$headingLetterSpacing: -0.08em;
+$headingTextTransform: none;
 $headingTextShadow: none;
-$backgroundColor: #f7fbfc;
+
+// Link
 $linkColor: #3b759e;
 $linkColorHover: lighten( $linkColor, 20% );
-$selectionBackgroundColor: #134674;
 
-// Fix links so they are not cut off
-.reveal a {
-	line-height: 1.3em;
-}
+// Text selection
+$selectionBackgroundColor: #ffc500;
+$selectionColor: #fff;
 
-// Background generator
+// Background
+$backgroundColor: #f7fbfc;
 @mixin bodyBackground() {
 	// @include radial-gradient-image( rgba(0, 0, 0, .2), 'topographic-bg.png' );
 	background: url('topographic-bg.png');
 }
 
 
-
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+// Put anything to be overridden below...
+
+// Fix links so they are not cut off
+.reveal a {
+	line-height: 1.3em;
+}
+
+// Smaller code size
+.reveal pre {
+	font-size: 0.45em;
+}
+
+// Remove image border in slides
+.reveal section img {
+	border: none;
+	box-shadow: none;
+}
