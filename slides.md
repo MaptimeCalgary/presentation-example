@@ -69,7 +69,7 @@ polygon.bindPopup("I am a polygon.");
 
 
 
-## Want to see something really crazy?
+## Want to see something _really_ crazy?
 
 Press `S` to check out the 'Presentation Mode'.
 
