@@ -31,6 +31,14 @@ Vertical-slides are good for drilling in to topics. Think of it as a _details_ s
 
 
 
+## You can put images in a slide
+
+![alt text](assets/logo.png "Logo Title Text 1")
+
+![external image](https://raw.githubusercontent.com/maptime/maptime.github.io/master/img/xmaptime-logo-web-header-rainbonly.png.pagespeed.ic.sUvy41gYSf.png "External Image Example")
+
+
+
 <!-- .slide: data-background="MintCream" -->
 ## Style
 
@@ -43,7 +51,6 @@ _Cool background, right?_<!-- .element: class="fragment" data-fragment-index="1"
 
 You can style each slide individually.
 ```
-
 
 
 
