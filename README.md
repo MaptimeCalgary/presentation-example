@@ -12,3 +12,11 @@ To use this as a base for a presentation, follow the steps outlined in the [Dupl
 1. Push code: `git push`
 1. Your presentation should be available under `http://your-username.github.io/presentation-your-topic`
 1. Edit code!
+
+## Customizing Slide Style
+
+1. From the repo base, fire up a [Sass](http://sass-lang.com/) compiler:
+```bash
+sass theme/source/maptimecalgary.scss:theme/maptimecalgary.css --watch
+```
+1. Edit `theme/source/maptimecalgary.scss`
