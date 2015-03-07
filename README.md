@@ -15,8 +15,8 @@ To use this as a base for a presentation, follow the steps outlined in the [Dupl
 
 ## Customizing Slide Style
 
-1. From the repo base, fire up a [Sass](http://sass-lang.com/) compiler:
+From the repo base, fire up a [Sass](http://sass-lang.com/) compiler:
 ```bash
 sass theme/source/maptimecalgary.scss:theme/maptimecalgary.css --watch
 ```
-1. Edit `theme/source/maptimecalgary.scss`
+Now edit the theme style at `theme/source/maptimecalgary.scss`
