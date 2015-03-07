@@ -1,6 +1,6 @@
-## MaptimeCalgary
+# The presentation template
 
-### The presentation template
+## MaptimeCalgary
 This is the first slide.
 
 _Press `F` to go full-screen._<!-- .element: class="fragment" data-fragment-index="1" -->
