@@ -3,7 +3,7 @@ Just an example of presentation.
 
 ## Instructions
 
-To use this as a base for a presentation, follow the steps outlined in the [Duplicating A Repository](https://help.github.com/articles/duplicating-a-repository/):
+To copy this template presentation into your Github account so that you can make it your own:
 
 1. [Create an empty repo](https://github.com/new) on Github _(ex. `presentation-your-topic`)_
 2. After creating the repository, you can choose to `Import code`: ![Import code button](https://cloud.githubusercontent.com/assets/897290/7187563/a3637a08-e42e-11e4-874e-ae9845224445.png)
