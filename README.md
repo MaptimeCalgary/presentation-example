@@ -20,3 +20,9 @@ From the repo base, fire up a [Sass](http://sass-lang.com/) compiler:
 sass theme/source/maptimecalgary.scss:theme/maptimecalgary.css --watch
 ```
 Now edit the theme style at `theme/source/maptimecalgary.scss`
+
+## FAQ
+
+> Why clone the repo rather than fork the repo?
+
+The problem with forking is that, on Github, you can only have one fork of a repo on your account (unless you email Github and ask them to disassociate the fork with the source). This means that if you want to have multiple presentations on your account that are based off of this presentation example, you'll be disappointed.
