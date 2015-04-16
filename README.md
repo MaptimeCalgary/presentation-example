@@ -6,12 +6,10 @@ Just an example of presentation.
 To use this as a base for a presentation, follow the steps outlined in the [Duplicating A Repository](https://help.github.com/articles/duplicating-a-repository/):
 
 1. [Create an empty repo](https://github.com/new) on Github _(ex. `presentation-your-topic`)_
-1. Clone this `presentation-example` repo locally: `git clone https://github.com/MaptimeCalgary/presentation-example.git presentation-your-topic`
-1. Change directory to local clone: `cd presentation-your-topic`
-1. Set your new empty repo as the remote: `git remote set-url origin git@github.com:your-username/presentation-your-topic`
-1. Push code: `git push`
-1. Your presentation should be available under `http://your-username.github.io/presentation-your-topic`
-1. Edit code!
+2. After creating the repository, you can choose to `Import code`: ![Import code button](https://cloud.githubusercontent.com/assets/897290/7187563/a3637a08-e42e-11e4-874e-ae9845224445.png)
+3. On the Github Importer page, enter in the link to this repository (`https://github.com/MaptimeCalgary/presentation-example`): ![screenshot from 2015-04-16 11 51 37](https://cloud.githubusercontent.com/assets/897290/7187614/f6f89cde-e42e-11e4-94d0-4d92d5a4c6ef.png)
+4. Press "Begin import" and (after a few seconds) you'll be taken to your new presentation. Go ahead and start making edits!
+5. Your presentation should be available under `http://your-username.github.io/presentation-your-topic`
 
 ## Customizing Slide Style
 
